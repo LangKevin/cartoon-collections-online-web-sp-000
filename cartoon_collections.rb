@@ -37,7 +37,7 @@ def find_the_cheese(array)# code an argument here
   array.each do |item|
     if cheese_types.index(item) != nil
       return cheese_types[cheese_types.index(item)]
-    end   
+    end
   end
   return nil
 end
