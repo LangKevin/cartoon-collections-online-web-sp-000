@@ -14,7 +14,7 @@ def summon_captain_planet(array)# code an argument here
  block_return_values = []
  while i < array.length
   #  block_return_values << array[i]
-   block_return_values[i] = array[i].capitalize
+   block_return_values[i] = array[i].capitalize + "!"
    i = i + 1
  end
   return block_return_values
